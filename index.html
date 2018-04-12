@@ -233,6 +233,144 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/12/github搭建网站的小小突破——上传图片/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Galory">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Galory">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/04/12/github搭建网站的小小突破——上传图片/" itemprop="url">github搭建网站的小小突破——上传图片</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-12T17:23:32+08:00">
+                2018-04-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>之前苦恼github搭建hexo博客的一个很重要原因是图片上传不方便，也是没有一直更新的原因之一。</p>
+<p>偶然间，某个巧合之下，发现github可以直接上传图片然后生成外链。于是，便去实践了，代码如下：</p>
+<p><code>![https://raw.githubusercontent.com/Galory/blog_pictures/master/20180412.jpg](图片)</code></p>
+<div align="center">
+
+<p>这个会有什么效果呢？如下图：</p>
+<p><img src="https://raw.githubusercontent.com/Galory/blog_pictures/master/20180412image3.png" alt="效果"></p>
+<div align="center">
+
+<p>然后部署上去会发现一脸懵逼</p>
+<p>那问题在哪里呢，昨晚试了好多次都没成功，刚刚突发奇想去查了查markdown插入超链接的语法，豁然开朗，链接和图片说明放错了位置。</p>
+<p><img src="https://github.com/Galory/blog_pictures/blob/master/20180412image2.png?raw=true" alt="语法说明"></p>
+<p>会发现其实链接应该放在后边括号里，于是我们按照正确的语法来看看，代码如下：</p>
+<p><code>![图片](https://raw.githubusercontent.com/Galory/blog_pictures/master/20180412.jpg)</code></p>
+<p>效果如下：</p>
+<p><img src="https://raw.githubusercontent.com/Galory/blog_pictures/master/20180412.jpg" alt="图片"></p>
+<hr>
+<p>小结：遇到问题google配合查看语言的官方文档看看怎么使用，很可能是语法的问题导致出错。</p>
+<p>开心、忙碌而充实的一天</p>
+</div></div>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/11/误差问题/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1108,7 +1246,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -1121,7 +1259,7 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">tags</span>
                 
               </div>
